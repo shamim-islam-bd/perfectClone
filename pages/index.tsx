@@ -1,13 +1,6 @@
 import Banner from "@/components/banner/Banner";
-import Navbar from "@/components/navbar/Navbar";
 import TopNav from "@/components/navbar/TopNav";
-// import { Barlow } from "next/font/google";
 import Head from "next/head";
-
-// const barlow = Barlow({
-//   weights: [400, 500, 700],
-//   styles: ["regular", "italic"],
-// });
 
 export default function Home() {
   return (
@@ -20,7 +13,6 @@ export default function Home() {
       </Head>
       <main>
         <TopNav />
-        <Navbar />
         <Banner />
       </main>
     </>

@@ -1,7 +1,3 @@
-import React from 'react'
-
 export default function TopNav() {
-  return (
-    <div>TopNav</div>
-  )
+  return <div className="hidden lg:block bg-[#090422] text-[#fff]">TopNav</div>;
 }
