@@ -53,6 +53,8 @@ ul {
 
 .btn-2:hover {
   background-image: linear-gradient(90deg, #ffff, #cfd5f5);
+  transition-duration: 4s;
+  transition-delay: 3s;
 }
 
 @layer base {
@@ -73,6 +75,14 @@ ul {
 
 /* banner */
 
+.logo svg {
+  width: 130px;
+  height: 130px;
+}
+.logo svg path {
+  fill: #fff;
+}
+
 .gradient-1 {
   z-index: -2;
   background: linear-gradient(180deg, #090422, #0052ff 100.05%);
@@ -80,7 +90,7 @@ ul {
 
 .gradient-2 {
   z-index: -1;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   background: linear-gradient(
     106.34deg,
     rgba(44, 207, 254, 0) 0.99%,
@@ -131,4 +141,69 @@ ul {
   line-height: 14px;
   letter-spacing: 1.2px;
   transition: 0.2s 0.1s;
+}
+
+button.sc-beqWaB.gXIUqQ {
+  display: none;
+}
+
+code {
+  background: #1d1834;
+}
+
+.jMRVRq span {
+  background: #1d1834 !important;
+}
+
+span.token {
+  color: #0841c4;
+}
+
+.process-task-runs-wrapper {
+  height: 259px;
+  -webkit-clippath: polygon(0 0, 38% 0, 60% 100%, 0 100%);
+  clip-path: polygon(0 0, 38% 0, 60% 100%, 0 100%);
+  display: block;
+  margin-top: -80px;
+}
+
+.process-task-runs {
+  background: linear-gradient(270deg, #f7f8fa, #ebeef7 98.38%);
+  height: 100%;
+}
+
+.card-img svg {
+  height: 140px;
+  width: 140px;
+}
+
+.card-svg svg path {
+  /* fill: red; */
+}
+
+.clients-section {
+  padding-top: 60px;
+  background: linear-gradient(90deg, #ebeef7, #f7f8fa);
+}
+
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+button.slick-arrow.slick-next {
+  display: none !important;
+}
+
+
+ul.slick-dots {
+  position: absolute;
+  top: -35px;
+  right: 36%;
+}
+
+/* client slider */
+
+.clientsLogo svg path{
+  fill: #4f4f4fd6;
+  mix-blend-mode: darken;
+  /* padding: 10px; */
 }

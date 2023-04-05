@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="60" viewBox="0 0 140 60" version="1.1">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>Group 61</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="landing-page-HD-v12" transform="translate(-570.000000, -741.000000)">
             <g id="Group-61" transform="translate(570.000000, 741.000000)">
                 <g id="Group-25-Copy" transform="translate(32.000000, 20.000000)" fill="#001A4C">
@@ -14,7 +11,7 @@
                     <polygon id="Path-10" points="65.8688758 8.07297026 73.3746259 8.07297026 73.3746259 12.2219746 64.5191255 12.2219746"/>
                     <polygon id="Path-11" points="63.2731036 15.9674771 75.2845604 15.9674771 75.2845604 20.1711024 61.8303953 20.1711024"/>
                 </g>
-                <rect id="Rectangle-Copy-38" stroke="#F8F8F8" stroke-width="0.1" opacity="0.01" x="0.05" y="0.05" width="139.9" height="59.9"/>
+                <rect id="Rectangle-Copy-38" stroke="#F8F8F8" strokeWidth="0.1" opacity="0.01" x="0.05" y="0.05" width="139.9" height="59.9"/>
             </g>
         </g>
     </g>

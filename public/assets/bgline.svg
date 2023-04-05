@@ -12,39 +12,39 @@
           <path
             d="M1071.6 406.491L857.657 508.113M1071.6 507.222L857.657 609.736M1071.6 812.981L857.657 914.604L857.657 508.113M857.657 812.981L1071.6 711.359M857.657 711.359L1071.6 609.736M857.657 508.113L1.88778 914.604L1.88784 1219.47L215.83 1117.85L215.83 1219.47M215.83 1321.09L215.83 1219.47M215.83 1321.09L1.88787 1422.72M215.83 1321.09L215.83 1422.72L1.88789 1524.34M215.83 1219.47L1.88786 1321.09"
             stroke="url(#paint0_linear)"
-            stroke-opacity="0.3"
-            stroke-width="2"
+            strokeOpacity="0.3"
+            strokeWidth="2"
             class="kBcQCkrp_0"
             data-v-dff380fe=""
           ></path>
           <path
             d="M0.996218 711.359L215.83 609.398M1071.6 203.245L857.657 304.783M857.657 9.43573e-05L857.657 304.783M857.657 304.783L215.83 609.398M215.83 508.029L643.715 304.783L643.715 0.000131764M429.772 304.784L215.83 406.322L215.83 609.398"
             stroke="url(#paint1_linear)"
-            stroke-opacity="0.4"
-            stroke-width="2"
+            strokeOpacity="0.4"
+            strokeWidth="2"
             class="kBcQCkrp_1"
             data-v-dff380fe=""
           ></path>
           <path
             d="M215.83 812.981L215.83 914.604M215.83 914.604L643.715 711.359L643.715 1219.47M215.83 914.604L215.83 1016.23L429.773 914.604L429.773 1524.34L643.715 1422.72M857.657 1219.47L643.715 1321.09L643.715 1219.47M857.657 1117.85L643.715 1219.47"
             stroke="url(#paint2_linear)"
-            stroke-opacity="0.2"
-            stroke-width="2"
+            strokeOpacity="0.2"
+            strokeWidth="2"
             class="kBcQCkrp_2"
             data-v-dff380fe=""
           ></path>
           <path
             d="M857.657 1016.23L643.715 1117.85"
             stroke="url(#paint3_linear)"
-            stroke-opacity="0.2"
-            stroke-width="2"
+            strokeOpacity="0.2"
+            strokeWidth="2"
             class="kBcQCkrp_3"
             data-v-dff380fe=""
           ></path>
           <path
             transform="rotate(180 216.6 813.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M206.6,813.34A10,10 0,1,1 226.6,813.34A10,10 0,1,1 206.6,813.34"
             class="kBcQCkrp_4"
             data-v-dff380fe=""
@@ -59,7 +59,7 @@
           <path
             transform="rotate(180 215.6 609.122)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M205.6,609.122A10,10.1223 0,1,1 225.6,609.122A10,10.1223 0,1,1 205.6,609.122"
             class="kBcQCkrp_6"
             data-v-dff380fe=""
@@ -74,7 +74,7 @@
           <path
             transform="rotate(180 1071.6 813.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M1065.6,813.34A6,6 0,1,1 1077.6,813.34A6,6 0,1,1 1065.6,813.34"
             class="kBcQCkrp_8"
             data-v-dff380fe=""
@@ -89,7 +89,7 @@
           <path
             transform="rotate(180 1071.6 711.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M1065.6,711.34A6,6 0,1,1 1077.6,711.34A6,6 0,1,1 1065.6,711.34"
             class="kBcQCkrp_10"
             data-v-dff380fe=""
@@ -104,7 +104,7 @@
           <path
             transform="rotate(180 857.599 1016.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M851.599,1016.34A6,6 0,1,1 863.599,1016.34A6,6 0,1,1 851.599,1016.34"
             class="kBcQCkrp_12"
             data-v-dff380fe=""
@@ -119,7 +119,7 @@
           <path
             transform="rotate(180 430 305)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M424,305A6,6 0,1,1 436,305A6,6 0,1,1 424,305"
             class="kBcQCkrp_14"
             data-v-dff380fe=""
@@ -134,7 +134,7 @@
           <path
             transform="rotate(180 857.599 1118.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M851.599,1118.34A6,6 0,1,1 863.599,1118.34A6,6 0,1,1 851.599,1118.34"
             class="kBcQCkrp_16"
             data-v-dff380fe=""
@@ -149,7 +149,7 @@
           <path
             transform="rotate(180 857.599 1219.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M851.599,1219.34A6,6 0,1,1 863.599,1219.34A6,6 0,1,1 851.599,1219.34"
             class="kBcQCkrp_18"
             data-v-dff380fe=""
@@ -164,7 +164,7 @@
           <path
             transform="rotate(180 1071.6 609.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M1065.6,609.34A6,6 0,1,1 1077.6,609.34A6,6 0,1,1 1065.6,609.34"
             class="kBcQCkrp_20"
             data-v-dff380fe=""
@@ -179,7 +179,7 @@
           <path
             transform="rotate(180 1071.6 507.34)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M1065.6,507.34A6,6 0,1,1 1077.6,507.34A6,6 0,1,1 1065.6,507.34"
             class="kBcQCkrp_22"
             data-v-dff380fe=""
@@ -194,7 +194,7 @@
           <path
             transform="rotate(180 1071.6 406)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M1065.6,406A6,6 0,1,1 1077.6,406A6,6 0,1,1 1065.6,406"
             class="kBcQCkrp_24"
             data-v-dff380fe=""
@@ -209,7 +209,7 @@
           <path
             transform="rotate(180 1071.6 203)"
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M1065.6,203A6,6 0,1,1 1077.6,203A6,6 0,1,1 1065.6,203"
             class="kBcQCkrp_26"
             data-v-dff380fe=""
@@ -231,8 +231,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint1_linear"
@@ -243,8 +243,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint2_linear"
@@ -255,8 +255,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint3_linear"
@@ -267,8 +267,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint4_linear"
@@ -279,8 +279,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint5_linear"
@@ -291,8 +291,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint6_linear"
@@ -303,8 +303,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint7_linear"
@@ -315,8 +315,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint8_linear"
@@ -327,8 +327,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint9_linear"
@@ -339,8 +339,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint10_linear"
@@ -351,8 +351,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint11_linear"
@@ -363,8 +363,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint12_linear"
@@ -375,8 +375,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint13_linear"
@@ -387,8 +387,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint14_linear"
@@ -399,8 +399,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
             <linearGradient
               id="paint15_linear"
@@ -411,8 +411,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-dff380fe=""
             >
-              <stop stop-color="#91EBFF" data-v-dff380fe=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-dff380fe=""></stop>
+              <stop stopColor="#91EBFF" data-v-dff380fe=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-dff380fe=""></stop>
             </linearGradient>
           </defs>
         </svg>

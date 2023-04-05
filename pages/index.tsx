@@ -1,5 +1,8 @@
 import Banner from "@/components/banner/Banner";
+import FocusCode from "@/components/focusCode/FocusCode";
 import TopNav from "@/components/navbar/TopNav";
+import PerfectCloud from "@/components/perfectCloud/PerfectCloud";
+import SliderMain from "@/components/sliders/SliderMain";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,6 +17,9 @@ export default function Home() {
       <main>
         <TopNav />
         <Banner />
+        <FocusCode/>
+        <PerfectCloud/>
+        <SliderMain />
       </main>
     </>
   );

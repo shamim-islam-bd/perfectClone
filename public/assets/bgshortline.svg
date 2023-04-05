@@ -11,30 +11,30 @@
           <path
             d="M219.942 1L6 102.623"
             stroke="url(#paint0_linear)"
-            stroke-opacity="0.4"
-            stroke-width="2"
+            strokeOpacity="0.4"
+            strokeWidth="2"
             class="iRvdTgMa_0"
             data-v-2c70770e=""
           ></path>
           <path
             d="M219.942 102.623L6 204.245"
             stroke="url(#paint1_linear)"
-            stroke-opacity="0.4"
-            stroke-width="2"
+            strokeOpacity="0.4"
+            strokeWidth="2"
             class="iRvdTgMa_1"
             data-v-2c70770e=""
           ></path>
           <path
             d="M219.942 204.245L6 305.868"
             stroke="url(#paint2_linear)"
-            stroke-opacity="0.4"
-            stroke-width="2"
+            strokeOpacity="0.4"
+            strokeWidth="2"
             class="iRvdTgMa_2"
             data-v-2c70770e=""
           ></path>
           <path
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M0,306A6,6 0,1,1 12,306A6,6 0,1,1 0,306"
             class="iRvdTgMa_3"
             data-v-2c70770e=""
@@ -47,7 +47,7 @@
           ></path>
           <path
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M0,204A6,6 0,1,1 12,204A6,6 0,1,1 0,204"
             class="iRvdTgMa_5"
             data-v-2c70770e=""
@@ -60,7 +60,7 @@
           ></path>
           <path
             fill="white"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
             d="M0,103A6,6 0,1,1 12,103A6,6 0,1,1 0,103"
             class="iRvdTgMa_7"
             data-v-2c70770e=""
@@ -81,8 +81,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-2c70770e=""
             >
-              <stop stop-color="#91EBFF" data-v-2c70770e=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-2c70770e=""></stop>
+              <stop stopColor="#91EBFF" data-v-2c70770e=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-2c70770e=""></stop>
             </linearGradient>
             <linearGradient
               id="paint1_linear"
@@ -93,8 +93,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-2c70770e=""
             >
-              <stop stop-color="#91EBFF" data-v-2c70770e=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-2c70770e=""></stop>
+              <stop stopColor="#91EBFF" data-v-2c70770e=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-2c70770e=""></stop>
             </linearGradient>
             <linearGradient
               id="paint2_linear"
@@ -105,8 +105,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-2c70770e=""
             >
-              <stop stop-color="#91EBFF" data-v-2c70770e=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-2c70770e=""></stop>
+              <stop stopColor="#91EBFF" data-v-2c70770e=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-2c70770e=""></stop>
             </linearGradient>
             <linearGradient
               id="paint3_linear"
@@ -117,8 +117,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-2c70770e=""
             >
-              <stop stop-color="#91EBFF" data-v-2c70770e=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-2c70770e=""></stop>
+              <stop stopColor="#91EBFF" data-v-2c70770e=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-2c70770e=""></stop>
             </linearGradient>
             <linearGradient
               id="paint4_linear"
@@ -129,8 +129,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-2c70770e=""
             >
-              <stop stop-color="#91EBFF" data-v-2c70770e=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-2c70770e=""></stop>
+              <stop stopColor="#91EBFF" data-v-2c70770e=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-2c70770e=""></stop>
             </linearGradient>
             <linearGradient
               id="paint5_linear"
@@ -141,8 +141,8 @@
               gradientUnits="userSpaceOnUse"
               data-v-2c70770e=""
             >
-              <stop stop-color="#91EBFF" data-v-2c70770e=""></stop>
-              <stop offset="1" stop-color="#8497FF" data-v-2c70770e=""></stop>
+              <stop stopColor="#91EBFF" data-v-2c70770e=""></stop>
+              <stop offset="1" stopColor="#8497FF" data-v-2c70770e=""></stop>
             </linearGradient>
           </defs>
         </svg>

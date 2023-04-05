@@ -12,8 +12,7 @@ module.exports = {
     container: {
       'center': true,
       'width': '1280px',
-      'marginleft': '20px',
-      'marginright': '20px'
+      // 'padding': '2rem',
     },
     extend: {},
     screens: {

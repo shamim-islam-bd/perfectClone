@@ -1,30 +1,30 @@
 import Image from "next/image";
 import Navbar from "../navbar/Navbar";
 
-import bgline from "../../public/assets/bgline.svg";
-import bgshortline from "../../public/assets/bgshortline.svg";
-import infrastructure from "../../public/assets/infrastructure.svg";
-import robot from "../../public/assets/robot.svg";
-import svgexport39 from "../../public/assets/svgexport-39.svg";
-import workflows from "../../public/assets/workflows.svg";
+import Bgline from "@/public/assets/Bgline";
+import Bgshortline from "@/public/assets/Bgshortline";
+// import infrastructure from "../../public/assets/infrastructure.svg";
+// import robot from "../../public/assets/robot.svg";
+// import svgexport39 from "../../public/assets/svgexport-39.svg";
+// import workflows from "../../public/assets/workflows.svg";
+import Svgexport39 from "@/public/assets/Svgexport39";
+import Robot from "@/public/assets/Robot";
+import Infrastructure from "@/public/assets/Infrastructure";
+import Workflows from "@/public/assets/Workflows";
 
 export default function Banner() {
   return (
-    <div className="relative">
+    <div className="relative ">
       <div className="absolute gradient-1 object-cover w-full h-full"></div>
       <div className="absolute gradient-2 object-cover w-full h-full"></div>
-      <div className="absolute object-cover w-full h-full top-30">
-        <Image className="-mt-8 bgline" src={bgline} alt="bgline" />
+      <div className="absolute opacity-60 object-cover w-full h-full top-30">
+        <Bgline />
       </div>
       <Navbar />
-      <div className="z-40 mt-80 absolute object-cover right-0 h-full invisible xl:visible opacity-75">
-        <Image
-          className="mt-20 bgshortline"
-          src={bgshortline}
-          alt="bgshortline"
-        />
+      <div className="mt-80 absolute object-cover right-0 h-full invisible lg:visible xl:visible opacity-75">
+        <Bgshortline />
       </div>
-      <section className="z-40 text-gray-400 bg-gray-900 body-font">
+      <section className="container z-40 text-gray-400 bg-gray-900 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full text-[#fff]">
             <h1 className="tracking-tight lg:font-[700] md:font-[700] lg:text-[80px] md:text-[80px]">
@@ -37,33 +37,25 @@ export default function Banner() {
               Orchestrate anything, observe everything.
             </p>
             <div className="flex justify-center gap-10">
-              <button className="btn-1 btn relative prefect-button">START FREE</button>
-              <button className="btn-2 relative prefect-button">DEPLOY OPEN SOURCE</button>
+              <button className="btn-1 btn relative prefect-button">
+                START FREE
+              </button>
+              <button className="btn-2 btn relative prefect-button">
+                DEPLOY OPEN SOURCE
+              </button>
             </div>
           </div>
         </div>
       </section>
-      <div className="container pb-10 px-[28px] flex flex-col md:flex-row lg:flex-row gap-10 text-[#ffff]">
+      <div className="container pb-16 px-[28px] flex flex-col md:flex-row lg:flex-row gap-10 text-[#ffff]">
         <div className="hidden lg:block lg:basis-1/4">
           <h2 className="font-barlow tracking-wider text-[48px] font-[700]">
             Supercharge your workflows
           </h2>
-          <Image
-            className="text-5xl mt-12 ml-2 group-hover:ml-2 text-white"
-            src={svgexport39}
-            alt="bgline"
-            width={40}
-            height={30}
-          />
+          <Svgexport39 />
         </div>
         <div className="lg:basis-1/4 md:basis-1/3">
-          <Image
-            className="my-6"
-            src={robot}
-            alt="bgline"
-            width={27}
-            height={23}
-          />
+          <Robot/>
           <h4 className="font-barlow tracking-wider my-4 font-bold text-2xl">
             Build
           </h4>
@@ -74,13 +66,7 @@ export default function Banner() {
           <p className="font-input mt-8 my-3 tracking-widest">PREFECT 2.0</p>
         </div>
         <div className="lg:basis-1/4 md:basis-1/3">
-          <Image
-            className="my-6"
-            src={infrastructure}
-            alt="bgline"
-            width={27}
-            height={23}
-          />
+          <Infrastructure/>
           <h4 className="font-barlow tracking-wider my-4 font-bold text-2xl">
             RUN
           </h4>
@@ -90,13 +76,7 @@ export default function Banner() {
           </p>
         </div>
         <div className="lg:basis-1/4 md:basis-1/3">
-          <Image
-            className="my-6"
-            src={workflows}
-            alt="bgline"
-            width={27}
-            height={23}
-          />
+          <Workflows/>
           <h4 className="font-barlow tracking-wider my-4 font-bold text-2xl">
             MONITOR
           </h4>
