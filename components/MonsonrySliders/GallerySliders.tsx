@@ -7,12 +7,15 @@ export default function GallerySliders() {
       <HorizontalSlider />
       <VerticalSlider />
       <HorizontalSlider />
-      <VerticalSlider />
       <HorizontalSlider />
       <VerticalSlider />
       <HorizontalSlider />
+      {/* <HorizontalSlider /> */}
       <VerticalSlider />
       <HorizontalSlider />
+      {/* <HorizontalSlider /> */}
+      <VerticalSlider />
+      {/* <HorizontalSlider /> */}
     </div>
   );
 }

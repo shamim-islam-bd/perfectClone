@@ -9,7 +9,7 @@ export default function Navbar() {
             <Logo />
           </div>
           <nav
-            className="uppercase text-sm gap-4 flex items-center justify-end"
+            className="uppercase text-sm gap-4 flex flex-wrap items-center justify-end"
             style={{
               opacity: 0.85,
             }}

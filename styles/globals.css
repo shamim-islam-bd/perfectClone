@@ -173,12 +173,8 @@ span.token {
 }
 
 .card-img svg {
-  height: 140px;
   width: 140px;
-}
-
-.card-svg svg path {
-  /* fill: red; */
+  height: 140px;
 }
 
 .clients-section {
@@ -193,7 +189,6 @@ button.slick-arrow.slick-next {
   display: none !important;
 }
 
-
 ul.slick-dots {
   position: absolute;
   top: -35px;
@@ -202,8 +197,107 @@ ul.slick-dots {
 
 /* client slider */
 
-.clientsLogo svg path{
+.clientsLogo svg path {
   fill: #4f4f4fd6;
   mix-blend-mode: darken;
   /* padding: 10px; */
+}
+
+.cardslider svg {
+  width: 180px;
+  height: 50px;
+}
+
+.cardPng {
+  width: 180px;
+  height: 50px;
+}
+
+.cardSlic ul.slick-dots li {
+  display: none;
+}
+
+.cardSlic .card .cardwrapper {
+  background-color: #ffff;
+}
+.cardSlic .card .cardwrapper:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardSlic .card .cardwrapper {
+  position: relative;
+  -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    15px 100%,
+    0 100%
+  );
+}
+
+
+/* WHY PREFECT  */
+
+
+
+.why-prefect-section h4.why-prefect {
+    font-family: input-sans!important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: left;
+    color: #0052ff;
+    margin-bottom: 17px;
+}
+
+
+.why-prefect-section .featured-video {
+    height: auto;
+    position: relative;
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 45px),calc(100% - 45px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 45px),calc(100% - 45px) 100%,15px 100%,0 100%);
+}
+
+
+.gradient-3 {
+  z-index: -2;
+  background: linear-gradient(180deg,#090422,#0052ff 104.71%);
+}
+
+.gradient-4 {
+  z-index: -1;
+  background: linear-gradient(253.66deg,rgba(0,82,255,0) .99%,#0052ff 70.36%,#2ccefe 97.51%);
+  -webkit-clip-path: polygon(80% 0,100% 0,100% 100%,0 100%,0 75%);
+  clip-path: polygon(80% 0,100% 0,100% 100%,0 100%,0 75%);
+}
+
+
+.why-prefect-section .featured-video figure {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.why-prefect-section .featured-video--text {
+  align-self: stretch;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
 }

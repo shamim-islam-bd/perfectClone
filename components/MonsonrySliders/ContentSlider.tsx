@@ -82,33 +82,35 @@ const responsive = [
 
 export default function ContentSlider() {
   return (
-    <Slider {...settings} className="w-full lg:w-1/2 md:w-1/2 relative">
-      {items.map((pd) => (
-        <div className="p-2" key={pd.id}>
-          <div className="p-4 card mb-7">
-            {pd.img === "Florida_Panthers" ? (
-              <Image src={Florida_Panthers} alt="" width={140} height={140} />
-            ) : (
-              <div className="card-img">{pd.img}</div>
-            )}
-            <p
-              className="font-input italic text-[18px]"
-              style={{
-                letterSpacing: "0.4px",
-                lineHeight: "24px",
-                color: "#4F4F4F",
-                fontWeight: 600,
-              }}
-            >
-              {pd.des}
-            </p>
-            <h5 className="pt-8 font-input text-[18px]">{pd.title}</h5>
+    <div className="w-full lg:w-1/2 md:w-1/2 relative">
+      <Slider {...settings}>
+        {items.map((pd) => (
+          <div className="" key={pd.id}>
+            <div className="p-4 card mb-4">
+              {pd.img === "Florida_Panthers" ? (
+                <Image src={Florida_Panthers} alt="" width={140} height={140} />
+              ) : (
+                <div className="card-img">{pd.img}</div>
+              )}
+              <p
+                className="font-input italic text-[18px]"
+                style={{
+                  letterSpacing: "0.4px",
+                  lineHeight: "24px",
+                  color: "#4F4F4F",
+                  fontWeight: 600,
+                }}
+              >
+                {pd.des}
+              </p>
+              <h5 className="pt-8 font-input text-[18px]">{pd.title}</h5>
+            </div>
           </div>
-          <button className="btn-2 prefect-button ml-5">
-            WHAT CUSTOMES ARE SAYEING
-          </button>
-        </div>
-      ))}
-    </Slider>
+        ))}
+      </Slider>
+      <button className="btn-2 prefect-button ml-5">
+        WHAT CUSTOMES ARE SAYEING
+      </button>
+    </div>
   );
 }

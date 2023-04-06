@@ -1,8 +1,10 @@
+import SliderMain from "@/components/MonsonrySliders/SliderMain";
 import Banner from "@/components/banner/Banner";
+import CardSlider from "@/components/cardSlider/CardSlider";
 import FocusCode from "@/components/focusCode/FocusCode";
 import TopNav from "@/components/navbar/TopNav";
 import PerfectCloud from "@/components/perfectCloud/PerfectCloud";
-import SliderMain from "@/components/sliders/SliderMain";
+import WhyPrefect from "@/components/whyPrefect/WhyPrefect";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,9 +19,11 @@ export default function Home() {
       <main>
         <TopNav />
         <Banner />
-        <FocusCode/>
-        <PerfectCloud/>
+        <FocusCode />
+        <PerfectCloud />
         <SliderMain />
+        <CardSlider />
+        <WhyPrefect />
       </main>
     </>
   );
