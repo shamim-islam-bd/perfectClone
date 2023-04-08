@@ -86,7 +86,7 @@ export default function ContentSlider() {
       <Slider {...settings}>
         {items.map((pd) => (
           <div className="" key={pd.id}>
-            <div className="p-4 card mb-4">
+            <div className="p-4 card lg:mb-4">
               {pd.img === "Florida_Panthers" ? (
                 <Image src={Florida_Panthers} alt="" width={140} height={140} />
               ) : (

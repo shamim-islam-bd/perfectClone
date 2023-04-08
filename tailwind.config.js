@@ -11,23 +11,24 @@ module.exports = {
   theme: {
     container: {
       'center': true,
-      'width': '1280px',
+      // 'width': '1280px',
       // 'padding': '2rem',
     },
     extend: {},
     screens: {
       'sm': '640px',
       'md': '768px',
+      'mdl': '992px',
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
     },
     fontFamily: {
       barlow: ['Barlow',' sans-serif'],
-      input : [ 'input', 'Courier New', 'Courier'],
+      input : [ 'input', 'Courier New',],
     },
     colors: {
-      'blue-1': '#0052ff',
+      'blue-1': '#1911EB',
       'blue-2': '#0e50f5',
       'blue-3': '#005290',
       'blue-4': '#6699cc',

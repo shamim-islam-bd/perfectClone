@@ -1,7 +1,8 @@
+import DiscourseSlack from "@/components/DiscourseSlack/DiscourseSlack";
+import Footer from "@/components/Footer/Footer";
 import SliderMain from "@/components/MonsonrySliders/SliderMain";
 import Banner from "@/components/banner/Banner";
 import CardSlider from "@/components/cardSlider/CardSlider";
-import FocusCode from "@/components/focusCode/FocusCode";
 import TopNav from "@/components/navbar/TopNav";
 import PerfectCloud from "@/components/perfectCloud/PerfectCloud";
 import WhyPrefect from "@/components/whyPrefect/WhyPrefect";
@@ -19,11 +20,12 @@ export default function Home() {
       <main>
         <TopNav />
         <Banner />
-        <FocusCode />
         <PerfectCloud />
         <SliderMain />
         <CardSlider />
         <WhyPrefect />
+        <DiscourseSlack />
+        <Footer />
       </main>
     </>
   );

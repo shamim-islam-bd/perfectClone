@@ -3,19 +3,18 @@ import VerticalSlider from "./VerticalSlider";
 
 export default function GallerySliders() {
   return (
-    <div className="w-full lg:w-1/2 md:w-1/2 py-10 grid grid-cols-3 gap-1 p-20 opacity-50">
+    <div className="py-10 p-6 grid grid-cols-3 gap-1 opacity-50">
+      {/* <div className="flex"> */}
       <HorizontalSlider />
       <VerticalSlider />
       <HorizontalSlider />
       <HorizontalSlider />
       <VerticalSlider />
       <HorizontalSlider />
-      {/* <HorizontalSlider /> */}
       <VerticalSlider />
       <HorizontalSlider />
-      {/* <HorizontalSlider /> */}
       <VerticalSlider />
-      {/* <HorizontalSlider /> */}
+      {/* </div> */}
     </div>
   );
 }

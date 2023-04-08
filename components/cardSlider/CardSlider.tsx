@@ -138,9 +138,9 @@ const responsive = [
 
 export default function CardSlider() {
   return (
-    <div className="relative">
+    <div className="relative py-40">
       <div className="cardSlic">
-        <div className="container lg:px-16 px-10 absolute inset-x-0 -top-20">
+        <div className="lg:px-16 px-10 absolute inset-x-0 -top-20">
           <Slider {...settings} responsive={responsive} className="w-full">
             {items.map((pd) => (
               <div className="card" key={pd.id}>
@@ -157,11 +157,11 @@ export default function CardSlider() {
                     ) : (
                       <div className="cardslider">{pd.img}</div>
                     )}
-                    <h5 className="pt-8 font-barlow font-[500] text-[24px]">
+                    <h5 className="pt-8 font-barlow font-[500] text-[18px] lg:text-[24px]">
                       {pd.title}
                     </h5>
                     <p
-                      className="font-barlow tracking-widest text-[18px] py-2"
+                      className="font-barlow tracking-widest lg:text-[18px] py-2"
                       style={{
                         letterSpacing: "0.4px",
                       }}

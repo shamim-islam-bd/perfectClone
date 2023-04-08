@@ -1,4 +1,4 @@
-import Logo from "@/public/assets/Logo";
+import Logoo from "@/public/assets/Logoo";
 
 export default function Navbar() {
   return (
@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="text-[#ffff]">
         <header className="tracking-widest text-gray-400 py-6 px-8 bg-gray-900 body-font flex items-center justify-between">
           <div className="font-medium items-center text-white mb-4 md:mb-0">
-            <Logo />
+            <Logoo />
           </div>
           <nav
             className="uppercase text-sm gap-4 flex flex-wrap items-center justify-end"

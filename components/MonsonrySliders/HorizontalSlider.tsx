@@ -14,10 +14,10 @@ export default function HorizontalSlider() {
   };
 
   return (
-    <Slider {...settings} className="w-full">
+    <Slider {...settings} className="">
       {images?.map((pd, i) => (
         <div key={i} className="">
-          <div className="clientsLogo w-50 h-50 itmes-center">{pd.img}</div>
+          <div className="clientsLogo itmes-center">{pd.img}</div>
         </div>
       ))}
     </Slider>

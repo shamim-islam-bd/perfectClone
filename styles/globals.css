@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap");
 
 @font-face {
-  font-family: "input sans";
+  font-family: "inputsans";
   src: url("../public/fonts/InputSans-Regular.otf");
 }
 
@@ -217,6 +217,17 @@ ul.slick-dots {
   display: none;
 }
 
+.slick-dots li button:before {
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 2px !important;
+  content: "" !important;
+  opacity: 0.25;
+  color: #0052ff;
+  background: #0052ff;
+}
+
 .cardSlic .card .cardwrapper {
   background-color: #ffff;
 }
@@ -248,44 +259,61 @@ ul.slick-dots {
   );
 }
 
-
 /* WHY PREFECT  */
 
-
-
 .why-prefect-section h4.why-prefect {
-    font-family: input-sans!important;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 1.2000000476837158px;
-    text-align: left;
-    color: #0052ff;
-    margin-bottom: 17px;
+  font-family: input-sans !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: left;
+  color: #0052ff;
+  margin-bottom: 17px;
 }
-
 
 .why-prefect-section .featured-video {
-    height: auto;
-    position: relative;
-    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 45px),calc(100% - 45px) 100%,15px 100%,0 100%);
-    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 45px),calc(100% - 45px) 100%,15px 100%,0 100%);
+  height: auto;
+  position: relative;
+  -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 45px),
+    calc(100% - 45px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 45px),
+    calc(100% - 45px) 100%,
+    15px 100%,
+    0 100%
+  );
 }
-
 
 .gradient-3 {
   z-index: -2;
-  background: linear-gradient(180deg,#090422,#0052ff 104.71%);
+  background: linear-gradient(180deg, #090422, #0052ff 104.71%);
 }
 
 .gradient-4 {
   z-index: -1;
-  background: linear-gradient(253.66deg,rgba(0,82,255,0) .99%,#0052ff 70.36%,#2ccefe 97.51%);
-  -webkit-clip-path: polygon(80% 0,100% 0,100% 100%,0 100%,0 75%);
-  clip-path: polygon(80% 0,100% 0,100% 100%,0 100%,0 75%);
+  background: linear-gradient(
+    253.66deg,
+    rgba(0, 82, 255, 0) 0.99%,
+    #0052ff 70.36%,
+    #2ccefe 97.51%
+  );
+  -webkit-clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 75%);
+  clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 75%);
 }
-
 
 .why-prefect-section .featured-video figure {
   position: relative;
@@ -294,10 +322,165 @@ ul.slick-dots {
   justify-content: flex-end;
 }
 
-
 .why-prefect-section .featured-video--text {
   align-self: stretch;
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
+}
+
+.contain {
+  width: 85%;
+  height: 40%;
+  margin: 90px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.videoSvg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.videoFigure:hover {
+  cursor: pointer;
+  opacity: calc(100% - 10%);
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.miter-gradient {
+  background: linear-gradient(90deg, #91ebff 0.5%, #8497ff 99.71%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%
+  );
+}
+
+.miter-gradient:hover {
+  background: linear-gradient(90deg, #090422 0.5%, #3a364e 99.71%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  color: #fff;
+}
+
+.miter-bg-md {
+  background: linear-gradient(90deg, #090422 0.5%, #3a364e 99.71%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  color: #fff;
+}
+
+.icon-circle-wrapper {
+  color: #fff;
+  background: hsla(0, 0%, 100%, 0.3) !important;
+}
+
+.icon-circle-wrapper svg {
+  position: absolute;
+  right: 34%;
+  bottom: 30%;
+}
+
+.miter-gradient:hover svg path {
+  transition: 0.3s;
+  fill: #fff;
+}
+
+@media (max-width: 876px) {
+  .miter-gradient {
+    background: linear-gradient(90deg, #090422 0.5%, #3a364e 99.71%);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% calc(100% - 30px),
+      calc(100% - 30px) 100%,
+      0 100%
+    );
+    color: #fff;
+  }
+  .miter-gradient svg path {
+    transition: 0.3s;
+    fill: #fff;
+  }
+}
+
+.img-community {
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-community svg {
+  width: 100%;
+  opacity: 0.5;
+  fill: #e0dbfa;
+}
+.img-community svg path {
+  fill: #ddd9f1;
+}
+
+.logoo svg {
+  width: 140px;
+  object-fit: cover;
+  object-position: center;
+  fill: #2ccefe;
+}
+
+.logoo svg path {
+  width: 140px;
+  object-fit: cover;
+  object-position: center;
+  fill: #19b2ff;
+}
+
+.logoo svg polygon {
+  fill: #0052ff;
+}
+
+.logoo svg .cls-1 {
+  fill: #fff;
+}
+
+.stay-in-the-flow form {
+  flex: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.stay-in-the-flow form input {
+  font-family: input-sans;
+  width: auto;
+  max-width: 656px;
+  height: 40px;
+  background: #3a364e;
+  color: #fff;
+  margin-right: 40px;
+  flex: auto;
+}
+
+.stay-in-the-flow form input::placeholder {
+  color: #fff;
+}
+
+.signUp {
+  width: 145px;
 }

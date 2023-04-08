@@ -1,12 +1,10 @@
-export default function Logo() {
+export default function Logoo() {
   return (
-    <div className="logo">
+    <div className="logoo">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 670.03 171.14"
-        width="670.03"
-        height="171.14"
       >
         <defs>
           <linearGradient
@@ -18,8 +16,8 @@ export default function Logo() {
             gradientTransform="matrix(231.6, 0, 0, -513.83, -1388912.25, 1284491.15)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stopColor="#22d7ff" />
-            <stop offset="1" stopColor="#0052ff" />
+            <stop offset="0" stop-color="#22d7ff" />
+            <stop offset="1" stop-color="#0052ff" />
           </linearGradient>
           <linearGradient
             id="linear-gradient-2"
