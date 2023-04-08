@@ -79,49 +79,23 @@ const items = [
 ];
 
 const settings = {
+  className: "center",
+  // centerMode: true,
   infinite: true,
-  speed: 500,
+  // centerPadding: "60px",
+  slidesToShow: 1,
   dots: true,
-  slidesToShow: 6,
-  slidesToScroll: 1,
-  autoplaySpeed: 5000,
-  // prevArrow: '.prev-arrow',
+  // centerMode: true, // important for responsive
+  speed: 500,
   prevArrow: <SamplePrevArrow />,
   nextArrow: <SampleNextArrow />,
 };
 
-const responsive = [
-  {
-    breakpoint: 2024,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 4,
-      infinite: true,
-      dots: true,
-    },
-  },
-  {
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 2,
-      dots: true,
-    },
-  },
-  {
-    breakpoint: 576,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true,
-    },
-  },
-];
 
 export default function TopNav() {
   return (
     <div className="bg-[#090422] text-[#fff] px-[60px] py-4">
-      <Slider {...settings} responsive={responsive} className="">
+      <Slider {...settings}>
         {items.map((item) => (
           <div
             key={item.id}

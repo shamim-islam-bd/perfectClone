@@ -16,8 +16,8 @@ export default function Logoo() {
             gradientTransform="matrix(231.6, 0, 0, -513.83, -1388912.25, 1284491.15)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#22d7ff" />
-            <stop offset="1" stop-color="#0052ff" />
+            <stop offset="0" stopColor="#22d7ff" />
+            <stop offset="1" stopColor="#0052ff" />
           </linearGradient>
           <linearGradient
             id="linear-gradient-2"

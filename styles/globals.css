@@ -484,3 +484,7 @@ ul.slick-dots {
 .signUp {
   width: 145px;
 }
+
+.slick-prev {
+  left: 0px;
+}
