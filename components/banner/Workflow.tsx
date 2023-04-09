@@ -22,7 +22,9 @@ export default function Workflow() {
             Design and test your workflow with our popular open-source
             framework.
           </p>
-          <p className="font-input mt-8 my-3 tracking-widest">PREFECT 2.0</p>
+          <p className="font-input mt-8 my-3 tracking-widest">
+            PREFECT 2.0 <span className="arrow">→</span>
+          </p>
         </div>
         <div className="lg:basis-1/4 md:basis-1/3">
           <Infrastructure />
@@ -43,7 +45,10 @@ export default function Workflow() {
             Design and test your workflow with our popular open-source
             framework.
           </p>
-          <p className="font-input mt-8 my-3 tracking-widest">PREFECT 2.0</p>
+          <p className="font-input mt-8 my-3 tracking-widest">
+            {" "}
+            PREFECT 2.0 <span className="arrow">→</span>
+          </p>
         </div>
       </div>
     </div>

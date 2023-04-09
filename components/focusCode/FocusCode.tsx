@@ -110,7 +110,7 @@ def marvin_flow():
               //   fontStyle: "italic",
             }}
           />
-          <div className="w-full h-12 bg-[#282a36] rounded-b group">
+          <div className="w-full relative z-20 h-12 bg-[#282a36] rounded-b group">
             <span
               onClick={() => copiedSlipboard(text)}
               onMouseOver={() => hoverOver()}
@@ -132,7 +132,7 @@ def marvin_flow():
           </div>
         </div>
       </div>
-      <div className="container py-10 text-end hidden lg:block">
+      <div className="contain py-10 text-end hidden lg:block">
         <h1 className="text-[#1F97FA] text-[48px] font-barlow">11,639</h1>
         <p
           className="tracking-widest"

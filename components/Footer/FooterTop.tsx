@@ -126,7 +126,7 @@ const data = [
 export default function FooterTop() {
   return (
     <div className="text-[#f8ebeb] px-[60px] py-24">
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 grid-flow-row justify-items-start gap-4 text-[#f8ebeb]">
+      <div className="relative z-30 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 grid-flow-row justify-items-start gap-4 text-[#f8ebeb]">
         <Logoo />
         {data.map((item, index) => (
           <ul key={item.id} className="">

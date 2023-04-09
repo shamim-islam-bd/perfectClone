@@ -1,7 +1,7 @@
 export default function FooterMiddle() {
   return (
     <div className="px-[60px]">
-      <div className="flex flex-col lg:flex-row justify-between lg:items-center py-20 border-t-[1px] border-t-blue-1">
+      <div className="relative z-40 flex flex-col lg:flex-row justify-between lg:items-center py-20 border-t-[1px] border-t-blue-1">
         <div className="flex justify-between items-center basis-1/4">
           <div className="">
             <h1 className="text-[#f8ebeb] font-barlow font-bold text-[20px] py-2">

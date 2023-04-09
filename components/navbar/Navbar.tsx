@@ -50,22 +50,27 @@ export default function Navbar() {
               )}
             </div>
           </div>
-          <nav
-            className="lg:block basis-3/4 uppercase text-sm gap-4 hidden items-center justify-end"
-            style={{
-              opacity: 0.85,
-            }}
-          >
-            <a className="mr-5 hover:text-white">PRODUCT</a>
-            <a className="mr-5 hover:text-white">COMPANY</a>
-            <a className="mr-5 hover:text-white">COMMUNITY</a>
-            <a className="mr-5 hover:text-white">RESOURCES</a>
-            <a className="mr-5 hover:text-white">RRICING</a>
+          <nav className="lg:block relative z-10 basis-3/4 uppercase text-sm gap-4 hidden items-center justify-end">
+            <a href="#" className="mr-5 hover:text-[#fff]">
+              PRODUCT
+            </a>
+            <a href="#" className="mr-5 hover:text-[#fff]">
+              COMPANY
+            </a>
+            <a href="#" className="mr-5 hover:text-[#fff]">
+              COMMUNITY
+            </a>
+            <a href="#" className="mr-5 hover:text-[#fff]">
+              RESOURCES
+            </a>
+            <a href="#" className="mr-5 hover:text-[#fff]">
+              RRICING
+            </a>
             <button className="btn-2 relative prefect-button mr-4">
               GET STARTED
             </button>
 
-            <button className=" inline-flex items-center bg-gray-800 border-0 py-1 pr-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+            <button className="inline-flex items-center bg-gray-800 border-0 py-1 pr-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
               <span className="mr-3 text-sm"> LOG IN</span>
               <svg
                 fill="none"

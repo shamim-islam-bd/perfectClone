@@ -36,9 +36,9 @@ const data = [
 
 export default function Community() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 py-28 mt-40 px-[60px] gap-4 bg-blue-1 text-[#fff]">
+    <div className="relative grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 py-28 mt-40 px-[60px] gap-4 bg-blue-1 text-[#fff]">
       {data.map((item) => (
-        <div key={item.id} className="opacity-100">
+        <div key={item.id} className="opacity-100 z-20">
           <div className="img-community">{item.img}</div>
           <h4 className="font-barlow text-2xl tracking-wider my-8 font-bold">
             {item.title}

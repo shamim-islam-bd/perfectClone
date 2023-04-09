@@ -11,10 +11,10 @@ export default function FooterBottm() {
     <div className="text-[#fff] opacity-90">
       <div className="flex font-input px-[60px] text-sm p-6 bg-[#073FF9] mb-4 flex-col lg:flex-row justify-between ">
         <ul className="flex gap-8">
-          <li>CLOUD STATUS</li>
-          <li>PRIVACY & TERMS</li>
-          <li>SECURITY</li>
-          <li>CONTACT US</li>
+          <li><a href="#">CLOUD STATUS</a></li>
+          <li><a href="#">PRIVACY & TERMS</a></li>
+          <li><a href="#">SECURITY</a></li>
+          <li><a href="#">CONTACT US</a></li>
         </ul>
         <ul className="flex gap-4">
           <li>

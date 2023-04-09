@@ -11,7 +11,7 @@ export default function Footer() {
         <FooterSvg />
       </div>
       <Community />
-      <div className="bg-[#090422]">
+      <div className="bg-[#090422] z-20">
         <FooterTop />
         <FooterMiddle />
         <FooterBottm />
