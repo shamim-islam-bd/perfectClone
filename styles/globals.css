@@ -46,6 +46,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+button:hover svg {
+  fill: #fff;
+  margin-left: 10px;
+  transition: ease-in-out 0.5s;
+}
 
 .btn-2 {
   background-image: linear-gradient(90deg, #91ebff, #8d9cf1ef);
@@ -81,6 +86,16 @@ ul {
 }
 .logo svg path {
   fill: #fff;
+}
+
+.menu svg {
+  width: 30px;
+  height: 30px;
+}
+
+.closeMenu svg {
+  width: 30px;
+  height: 30px;
 }
 
 .gradient-1 {
@@ -208,6 +223,27 @@ ul.slick-dots {
   height: 50px;
 }
 
+.cardSlic .slick-dots {
+  display: none !important;
+}
+
+.cardSlic .slick-next:before {
+  width: 40px !important;
+  height: 40px !important;
+  color: #090422 !important;
+  font-size: 30px !important;
+  font-weight: 600;
+  /* background: #0052ff; */
+}
+.cardSlic .slick-prev:before {
+  width: 40px !important;
+  height: 40px !important;
+  color: #090422 !important;
+  font-size: 30px !important;
+  font-weight: 600;
+  /* background: #0052ff; */
+}
+
 .cardPng {
   width: 180px;
   height: 50px;
@@ -226,13 +262,15 @@ ul.slick-dots {
   opacity: 0.25;
   color: #0052ff;
   background: #0052ff;
+  z-index: 20;
 }
 
-.cardSlic .card .cardwrapper {
+.cardSlic .card .cardwrapper .wrapper{
   background-color: #ffff;
 }
-.cardSlic .card .cardwrapper:hover {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+.cardSlic .card .cardwrapper .wrapper:hover {
+  box-shadow: 15px 6px 24px 4px rgba(0, 0, 0, 0.1) ,
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .cardSlic .card .cardwrapper {
@@ -489,6 +527,11 @@ ul.slick-dots {
   left: 0px;
 }
 
+.topnav .slick-prev {
+  color: #07e798 !important;
+  z-index: 20;
+}
+
 .slick-prev:before,
 .slick-next:before {
   font-family: "" !important;
@@ -496,4 +539,21 @@ ul.slick-dots {
   line-height: 1;
   opacity: 1 !important;
   color: #07e798 !important;
+}
+
+.Github svg {
+  width: 20px;
+  height: 20px;
+}
+.linkdin svg {
+  width: 20px;
+  height: 20px;
+}
+.twiter svg {
+  width: 20px;
+  height: 20px;
+}
+.youtube svg {
+  width: 20px;
+  height: 20px;
 }

@@ -6,12 +6,12 @@ import Community from "./community/Community";
 
 export default function Footer() {
   return (
-    <div className="bg-[#090422] relative">
+    <div className="bg-[#090422] relative  overflow-hidden">
       <div>
         <div className="absolute bottom-0 -right-14 opacity-60">
           <FooterSvg />
         </div>
-          <Community />
+        <Community />
         <div className="z-40 relative">
           <FooterTop />
           <FooterMiddle />

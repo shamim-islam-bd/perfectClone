@@ -24,7 +24,7 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
       }}
       onClick={onClick}
     >
-      →
+      {/* → */}
     </span>
   );
 }
@@ -36,14 +36,14 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any }) {
       className={className}
       style={{
         ...style,
-        marginLeft: "-40px",
+        // marginLeft: "-40px",
         coursure: "pointer",
         color: "black",
         fontSize: "45px",
       }}
       onClick={onClick}
     >
-      ←
+      {/* ← */}
     </span>
   );
 }
@@ -95,6 +95,7 @@ const items = [
 ];
 
 const settings = {
+  dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 3,
@@ -140,39 +141,41 @@ export default function CardSlider() {
   return (
     <div className="relative py-40">
       <div className="cardSlic">
-        <div className="lg:px-16 px-10 absolute inset-x-0 -top-20">
+        <div className="lg:px-16 px-8 absolute inset-x-0 -top-20">
           <Slider {...settings} responsive={responsive} className="w-full">
             {items.map((pd) => (
               <div className="card" key={pd.id}>
-                <div className="cardwrapper m-3 gap-4">
-                  <div className="p-4 mb-4 m-3">
-                    {pd.img === "dyvenialogodark" ? (
-                      <div className="cardPng flex items-center">
-                        <Image src={dyvenialogodark} alt="dyvenial" />
-                      </div>
-                    ) : pd.img === "quiltailogonavy" ? (
-                      <div className="cardPng flex items-center">
-                        <Image src={quiltailogonavy} alt="quiltail" />
-                      </div>
-                    ) : (
-                      <div className="cardslider">{pd.img}</div>
-                    )}
-                    <h5 className="pt-8 font-barlow font-[500] text-[18px] lg:text-[24px]">
-                      {pd.title}
-                    </h5>
-                    <p
-                      className="font-barlow tracking-widest lg:text-[18px] py-2"
-                      style={{
-                        letterSpacing: "0.4px",
-                      }}
-                    >
-                      {pd.des}
-                    </p>
-                  </div>
+                <div className="cardwrapper m-4">
+                  <div className="wrapper p-3 m-6 mb-6">
+                    <div className="mb-4">
+                      {pd.img === "dyvenialogodark" ? (
+                        <div className="cardPng flex items-center">
+                          <Image src={dyvenialogodark} alt="dyvenial" />
+                        </div>
+                      ) : pd.img === "quiltailogonavy" ? (
+                        <div className="cardPng flex items-center">
+                          <Image src={quiltailogonavy} alt="quiltail" />
+                        </div>
+                      ) : (
+                        <div className="cardslider">{pd.img}</div>
+                      )}
+                      <h5 className="pt-8 font-barlow font-[500] text-[18px] lg:text-[24px]">
+                        {pd.title}
+                      </h5>
+                      <p
+                        className="font-barlow tracking-widest lg:text-[18px] py-2"
+                        style={{
+                          letterSpacing: "0.4px",
+                        }}
+                      >
+                        {pd.des}
+                      </p>
+                    </div>
 
-                  <button className=" ml-5 tracking-widest text-[13px]">
-                    READ THE STORY
-                  </button>
+                    <button className="ml-6 pl-3 tracking-widest text-[13px]">
+                      READ THE STORY
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}

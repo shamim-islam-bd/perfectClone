@@ -1,5 +1,3 @@
-import Logoo from "@/public/assets/Logoo";
-
 const data = [
   {
     id: 1,
@@ -123,22 +121,16 @@ const data = [
   },
 ];
 
-export default function FooterTop() {
+export default function MobileMenu() {
   return (
-    <div className="text-[#f8ebeb] px-[60px] py-24">
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 grid-flow-row justify-items-start gap-4 text-[#f8ebeb]">
-        <Logoo />
+    <div className=" font-barlow text-[#f8ebeb] px-[60px] text-center">
+      <div className="gap-4">
         {data.map((item, index) => (
           <ul key={item.id} className="">
-            <li className="font-bold text-[#0052ff] font-barlow">
-              {item.title}
-            </li>
+            <li className="font-bold text-[#0052ff]">{item.title}</li>
             {item?.items?.map((item, index) => (
-              <li
-                key={index}
-                className="text-[#d4d2df] py-2 font-input font-thin"
-              >
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+              <li key={index} className="py-2">
+                <a href="#" target="">
                   {" "}
                   {item.title}
                 </a>
