@@ -18,7 +18,7 @@ const data = [
 
 export default function DiscourseSlack() {
   return (
-    <div className="px-[80px] flex flex-col lg:flex-row md:flex-row justify-around">
+    <div className="px-[60px] pt-20 flex flex-col lg:flex-row md:flex-row justify-around">
       {data.map((item) => (
         <div
           key={item.id}
@@ -31,10 +31,10 @@ export default function DiscourseSlack() {
             <div className="block lg:hidden opacity-50">{item.img}</div>
           </div>
           <div className="px-4">
-            <span className="lg:text-2xl md:text-xl font-barlow">
+            <span className="lg:text-2xl font-barlow">
               {item.title}
             </span>
-            <p className="text-lg hidden md:block lg:block text-barlow">
+            <p className="hidden md:block lg:block text-barlow">
               {item.des}
             </p>
           </div>

@@ -78,6 +78,12 @@ button:hover svg {
   }
 }
 
+
+.NavContain {
+  width: 85%;
+  margin: auto;
+}
+
 /* banner */
 
 .logo svg {
@@ -265,15 +271,36 @@ ul.slick-dots {
   z-index: 20;
 }
 
-.cardSlic .card .cardwrapper .wrapper{
+.cardSlic .card .cardwrapper .wrapper {
   background-color: #ffff;
+
+  /* -webkit-clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    15px 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    0 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    15px 100%,
+    0 100%
+  ); */
 }
 .cardSlic .card .cardwrapper .wrapper:hover {
-  box-shadow: 15px 6px 24px 4px rgba(0, 0, 0, 0.1) ,
+  box-shadow: 15px 6px 24px 4px rgba(0, 0, 0, 0.1),
     0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-.cardSlic .card .cardwrapper {
+/* .cardSlic .card .cardwrapper {
   position: relative;
   -webkit-clip-path: polygon(
     0 0,
@@ -295,7 +322,7 @@ ul.slick-dots {
     15px 100%,
     0 100%
   );
-}
+} */
 
 /* WHY PREFECT  */
 
@@ -368,11 +395,9 @@ ul.slick-dots {
 }
 
 .contain {
-  width: 85%;
+  width: 88%;
   height: 40%;
-  margin: 90px auto;
-  position: relative;
-  overflow: hidden;
+  margin: auto;
 }
 
 .videoSvg {
@@ -463,7 +488,7 @@ ul.slick-dots {
 }
 
 .img-community {
-  width: 200px;
+  width: 150px;
   object-fit: cover;
   object-position: center;
 }
@@ -471,6 +496,7 @@ ul.slick-dots {
   width: 100%;
   opacity: 0.5;
   fill: #e0dbfa;
+  height: auto;
 }
 .img-community svg path {
   fill: #ddd9f1;

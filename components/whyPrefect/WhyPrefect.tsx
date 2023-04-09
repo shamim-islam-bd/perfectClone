@@ -1,3 +1,4 @@
+import Svgexport27 from "@/public/assets/Svgexport27";
 import Watchthedemo from "@/public/assets/Watchthedemo";
 import { useState } from "react";
 import Modal from "react-modal";
@@ -11,6 +12,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
+    zIndex: 999,
   },
 };
 
@@ -34,8 +36,8 @@ export default function WhyPrefect() {
   };
 
   return (
-    <div className="flex flex-col mt-44 contain sm:mt-50">
-      <h3 className="why-prefect text-base py-8 font-input text-[#0052ff]">
+    <div className="flex flex-col ml-10 md:ml-16 lg:ml-20 mt-44 contain relative overflow-hidden sm:mt-50">
+      <h3 className="why-prefect text-base pb-3 pt-10 font-input text-[#0052ff]">
         WHY PREFECT
       </h3>
       <div className="featured-video">
@@ -278,9 +280,12 @@ export default function WhyPrefect() {
             </defs>
           </svg>
         </div>
-        <div className="text-[#fff] p-8 featured-video--content flex lg:items-start items-center lg:flex-row flex-col">
+        <div className="absolute right-0 -bottom-28">
+          <Svgexport27 />
+        </div>
+        <div className="text-[#fff] px-10 py-16 featured-video--content flex lg:items-start items-center lg:flex-row flex-col">
           <figure
-            className="lg:mr-12 mx-auto flex-1 cursor-pointer mt-16 relative videoFigure"
+            className="lg:mr-12 mx-auto flex-1 cursor-pointer mt-10 relative videoFigure"
             data-v-70ebf7ad=""
           >
             <img
@@ -290,7 +295,9 @@ export default function WhyPrefect() {
               data-v-70ebf7ad=""
             />
             <figcaption onClick={handleButtonClick}>
-              <Watchthedemo />
+              <div className="z-10">
+                <Watchthedemo />
+              </div>
               <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={handleCloseModal}

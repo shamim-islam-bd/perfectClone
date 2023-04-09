@@ -9,7 +9,7 @@ export default function PerfectCloud() {
       <div className="mt-60 absolute object-cover right-0 h-full invisible lg:visible xl:visible opacity-75">
         <Bgshortline />
       </div>
-      <div className="container relative gap-10 flex flex-col lg:flex-row items-center justify-between">
+      <div className="contain relative gap-10 flex flex-col lg:flex-row items-center justify-between">
         <div className="basis-1/2 z-50 lg:order-first order-last">
           <div
             className="mx-auto p-2 shadow-lg bg-[#fff] rounded-lg radius-10"
@@ -87,8 +87,8 @@ export default function PerfectCloud() {
       </div>
       <div className=" process-task-runs-wrapper text-start hidden md:block lg:block">
         <div className="process-task-runs z-10 hidden md:block lg:block">
-          <div className="container pt-14">
-            <h1 className="text-[#2ccffe] text-[48px] font-barlow pt-2 lg:pt-8">
+          <div className="contain pt-14">
+            <h1 className="text-[#2ccffe] text-[48px] font-barlow pt-8 lg:pt-8">
               150,000,000 +
             </h1>
             <p

@@ -10,13 +10,13 @@ export default function FooterBottm() {
   return (
     <div className="text-[#fff] opacity-90">
       <div className="flex font-input px-[60px] text-sm p-6 bg-[#073FF9] mb-4 flex-col lg:flex-row justify-between ">
-        <ul className="flex gap-5">
+        <ul className="flex gap-8">
           <li>CLOUD STATUS</li>
           <li>PRIVACY & TERMS</li>
           <li>SECURITY</li>
           <li>CONTACT US</li>
         </ul>
-        <ul className="flex gap-5">
+        <ul className="flex gap-4">
           <li>
             <a href="http://" target="_blank" rel="noopener noreferrer">
               {" "}

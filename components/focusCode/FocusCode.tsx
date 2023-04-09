@@ -44,7 +44,7 @@ def marvin_flow():
 
   return (
     <div className="bg-[#090422] text-[#fff] pt-40 pb-10">
-      <div className="container gap-10 flex flex-col lg:flex-row justify-between">
+      <div className="contain gap-10 flex flex-col lg:flex-row justify-between">
         <div className="basis-1/3">
           <Image
             className="my-4"

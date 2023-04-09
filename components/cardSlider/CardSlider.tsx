@@ -139,40 +139,38 @@ const responsive = [
 
 export default function CardSlider() {
   return (
-    <div className="relative py-40">
+    <div className="relative pt-60 pb-40">
       <div className="cardSlic">
         <div className="lg:px-16 px-8 absolute inset-x-0 -top-20">
           <Slider {...settings} responsive={responsive} className="w-full">
             {items.map((pd) => (
               <div className="card" key={pd.id}>
-                <div className="cardwrapper m-4">
-                  <div className="wrapper p-3 m-6 mb-6">
-                    <div className="mb-4">
-                      {pd.img === "dyvenialogodark" ? (
-                        <div className="cardPng flex items-center">
-                          <Image src={dyvenialogodark} alt="dyvenial" />
-                        </div>
-                      ) : pd.img === "quiltailogonavy" ? (
-                        <div className="cardPng flex items-center">
-                          <Image src={quiltailogonavy} alt="quiltail" />
-                        </div>
-                      ) : (
-                        <div className="cardslider">{pd.img}</div>
-                      )}
-                      <h5 className="pt-8 font-barlow font-[500] text-[18px] lg:text-[24px]">
-                        {pd.title}
-                      </h5>
-                      <p
-                        className="font-barlow tracking-widest lg:text-[18px] py-2"
-                        style={{
-                          letterSpacing: "0.4px",
-                        }}
-                      >
-                        {pd.des}
-                      </p>
-                    </div>
+                <div className="cardwrapper relative">
+                  <div className="wrapper p-4 m-4 mb-6">
+                    {pd.img === "dyvenialogodark" ? (
+                      <div className="cardPng flex items-center">
+                        <Image src={dyvenialogodark} alt="dyvenial" />
+                      </div>
+                    ) : pd.img === "quiltailogonavy" ? (
+                      <div className="cardPng flex items-center">
+                        <Image src={quiltailogonavy} alt="quiltail" />
+                      </div>
+                    ) : (
+                      <div className="cardslider">{pd.img}</div>
+                    )}
+                    <h5 className="pt-8 font-barlow font-[500] text-[18px] lg:text-[24px]">
+                      {pd.title}
+                    </h5>
+                    <p
+                      className="font-barlow tracking-widest lg:text-[18px] py-2"
+                      style={{
+                        letterSpacing: "0.4px",
+                      }}
+                    >
+                      {pd.des}
+                    </p>
 
-                    <button className="ml-6 pl-3 tracking-widest text-[13px]">
+                    <button className="py-5 tracking-widest text-[13px]">
                       READ THE STORY
                     </button>
                   </div>
