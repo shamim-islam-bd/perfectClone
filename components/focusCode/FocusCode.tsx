@@ -122,9 +122,9 @@ def marvin_flow():
               ) : (
                 <div>
                   {copyText === "COPIED" ? (
-                    <span className="text-[12px] tracking-widest">COPIED</span>
+                    <span className="text-[12px] tracking-widest cursor-copy">COPIED</span>
                   ) : (
-                    <span className="text-[12px] tracking-widest">COPY</span>
+                    <span className="text-[12px] tracking-widest cursor-copy">COPY</span>
                   )}
                 </div>
               )}

@@ -1,3 +1,6 @@
+import Logoo from "@/public/assets/Logoo";
+import MenuClose from "@/public/assets/MenuClose";
+
 const data = [
   {
     id: 1,
@@ -121,12 +124,18 @@ const data = [
   },
 ];
 
-export default function MobileMenu() {
+export default function MobileMenu({ isOpen, toggle }) {
   return (
-    <div className=" font-barlow text-[#f8ebeb] px-[60px] text-center">
-      <div className="gap-4">
+    <div className="font-barlow bg-[#0A082E] text-[#f8ebeb] px-[60px] text-center p-10 pb-40">
+      <div className="gap-4 ">
+        <div className="mobile flex justify-between">
+          <div></div> <Logoo />
+          <span className="text-end cursor-pointer" onClick={toggle}>
+            <MenuClose />
+          </span>
+        </div>
         {data.map((item, index) => (
-          <ul key={item.id} className="">
+          <ul key={item.id} className="py-3">
             <li className="font-bold text-[#0052ff]">{item.title}</li>
             {item?.items?.map((item, index) => (
               <li key={index} className="py-2">
@@ -138,6 +147,17 @@ export default function MobileMenu() {
             ))}
           </ul>
         ))}
+        <div className="py-4 text-center">
+          <button className="btn-2 btn relative prefect-button">
+            GET PERFECT
+          </button>
+          <p className="pt-4 pb-2">
+            <button className="btn-1 btn relative prefect-button">
+              LOG IN
+            </button>
+          </p>
+          <span className="text-[12px]">Looking for 1.0?</span>
+        </div>
       </div>
     </div>
   );

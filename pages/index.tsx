@@ -3,7 +3,6 @@ import Footer from "@/components/Footer/Footer";
 import SliderMain from "@/components/MonsonrySliders/SliderMain";
 import Banner from "@/components/banner/Banner";
 import CardSlider from "@/components/cardSlider/CardSlider";
-import TopNav from "@/components/navbar/TopNav";
 import PerfectCloud from "@/components/perfectCloud/PerfectCloud";
 import WhyPrefect from "@/components/whyPrefect/WhyPrefect";
 import Head from "next/head";
@@ -18,7 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <TopNav />
         <Banner />
         <PerfectCloud />
         <SliderMain />

@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap");
 
 @font-face {
-  font-family: "inputsans";
+  font-family: "inputsans", "Courier New";
   src: url("../public/fonts/InputSans-Regular.otf");
 }
 
@@ -63,9 +63,16 @@ button:hover svg {
 }
 
 @layer base {
+  p {
+    /* text-transform: lowercase; */
+  }
+
   h1 {
-    font-family: "inputsans", sans-serif;
-    line-height: 1.2;
+    font-family: "Barlow", sans-serif;
+    /* font-family: Barlow; */
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
   }
 }
 
@@ -79,7 +86,7 @@ button:hover svg {
 }
 
 svg#constellationMotif {
-  margin: -70px;
+  width: 82%;
 }
 
 .NavContain {
@@ -88,10 +95,9 @@ svg#constellationMotif {
 }
 
 /* banner */
-
 .logo svg {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
 }
 .logo svg path {
   fill: #fff;
@@ -106,6 +112,36 @@ svg#constellationMotif {
   width: 30px;
   height: 30px;
 }
+
+.productMain:hover .product {
+  position: absolute;
+  display: block;
+  transition: ease-in-out 0.5s;
+}
+.companyMain:hover .company {
+  position: absolute;
+  display: block;
+  transition: ease-in-out 0.5s;
+}
+.communityMain:hover .community {
+  position: absolute;
+  display: block;
+  transition: ease-in-out 0.5s;
+}
+.resourceMain:hover .resource {
+  /* position: absolute; */
+  /* display: block; */
+  transition: ease-in-out 0.5s;
+}
+
+.mobile .logoo {
+  display: inline-block;
+}
+
+/* scoll bar none */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
 
 .gradient-1 {
   z-index: -2;
@@ -122,7 +158,7 @@ svg#constellationMotif {
     #2ccefe 97.51%
   );
   -webkit-clip-path: polygon(0 0, 100% 72%, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 72%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 43%, 100% 100%, 0 100%);
 }
 
 .header-shadow-bg {
@@ -143,6 +179,41 @@ svg#constellationMotif {
 .bgline {
   margin-top: -350px;
 }
+
+.login:hover .arrow {
+  margin-left: 15px;
+  transition: ease-in-out 0.5s;
+}
+.perfectbtn:hover .arrow {
+  margin-left: 10px;
+  transition: ease-in-out 0.5s;
+}
+
+/* Login hover button animation */
+
+.login::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 140px;
+  height: 0;
+  transition: height 0.4s ease-in-out;
+}
+
+.login:hover::after {
+  position: absolute;
+  top: 33px;
+  width: 130px;
+  left: -12px;
+  content: "Looging for 1.0?";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  transition: height 0.4s ease-in-out;
+}
+
+/* Perfect hover button animation style*/
 
 .btn:visited,
 .prefect-button,
@@ -259,6 +330,7 @@ ul.slick-dots {
   font-weight: 600;
   /* background: #0052ff; */
 }
+
 .cardSlic .slick-prev:before {
   width: 40px !important;
   height: 40px !important;
@@ -291,27 +363,6 @@ ul.slick-dots {
 
 .cardSlic .card .cardwrapper .wrapper {
   background-color: #ffff;
-
-  /* -webkit-clip-path: polygon(
-    0 0,
-    0 0,
-    100% 0,
-    100% 0,
-    100% calc(100% - 30px),
-    calc(100% - 30px) 100%,
-    15px 100%,
-    0 100%
-  );
-  clip-path: polygon(
-    0 0,
-    0 0,
-    100% 0,
-    100% 0,
-    100% calc(100% - 30px),
-    calc(100% - 30px) 100%,
-    15px 100%,
-    0 100%
-  ); */
 }
 .cardSlic .card .cardwrapper .wrapper:hover {
   box-shadow: 15px 6px 24px 4px rgba(0, 0, 0, 0.1),
@@ -521,14 +572,14 @@ ul.slick-dots {
 }
 
 .logoo svg {
-  width: 130px;
+  width: 110px;
   object-fit: cover;
   object-position: center;
   fill: #2ccefe;
 }
 
 .logoo svg path {
-  width: 130px;
+  width: 110px;
   object-fit: cover;
   object-position: center;
   fill: #19b2ff;

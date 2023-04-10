@@ -105,7 +105,7 @@ const settings = {
 
 export default function TopNav() {
   return (
-    <div className="bg-[#090422] z-1 text-[#fff] px-[65px] py-1 topnav">
+    <div className="bg-[#090422] z-1 text-[#fff] py-1 topnav">
       <Slider {...settings}>
         {items.map((item) => (
           <div

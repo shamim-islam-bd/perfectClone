@@ -10,7 +10,7 @@ export default function PerfectCloud() {
         <Bgshortline />
       </div>
       <div className="contain relative gap-10 flex flex-col lg:flex-row items-center justify-between">
-        <div className="basis-1/2 z-50 lg:order-first order-last">
+        <div className="basis-1/2 z-30 lg:order-first order-last">
           <div
             className="mx-auto p-2 shadow-lg bg-[#fff] rounded-lg radius-10"
             style={{

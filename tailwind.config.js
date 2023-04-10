@@ -26,6 +26,7 @@ module.exports = {
     fontFamily: {
       barlow: ['Barlow',' sans-serif'],
       input : [ 'input', 'Courier New',],
+      inputSans : [ 'input-sans', 'Courier New',],
     },
     colors: {
       'blue-1': '#1911EB',
