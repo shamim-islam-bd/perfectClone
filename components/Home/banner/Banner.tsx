@@ -1,7 +1,6 @@
-import Navbar from "../navbar/Navbar";
-
 import Bgline from "@/public/assets/Bgline";
 import Bgshortline from "@/public/assets/Bgshortline";
+import Navbar from "../../navbar/Navbar";
 import FocusCode from "../focusCode/FocusCode";
 import Hero from "./Hero";
 import Workflow from "./Workflow";

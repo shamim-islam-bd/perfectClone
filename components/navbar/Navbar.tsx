@@ -1,10 +1,12 @@
 import Logoo from "@/public/assets/Logoo";
 import Menu from "@/public/assets/Menu";
-import MenuClose from "@/public/assets/MenuClose";
 import { useEffect, useState } from "react";
 import HoverCard from "./HoverCard";
 import MobileMenu from "./MobileMenu";
 import TopNav from "./TopNav";
+
+import { companyData, data } from "./CardData";
+import ComminityCard from "./ComminityCard";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,9 +58,10 @@ export default function Navbar() {
         <TopNav />
       </div>
       <div
+        id="navbar"
         className={`navbar ${
-          navbarFixed ? "fixed" : ""
-        } z-50 lg:pb-0 pb-14 top-0 w-full overflow-auto items-center lg:h-auto font-inputSans tracking-wide`}
+          navbarFixed ? "fixed" : " "
+        } z-50 lg:pb-0 pb-14 top-0 w-full items-center lg:h-auto font-inputSans tracking-wide`}
       >
         <div className="">
           <div className="text-[#ffff]">
@@ -71,11 +74,7 @@ export default function Navbar() {
                   <Logoo />
                 </a>
                 <div className="lg:hidden">
-                  {isOpen ? (
-                    <button onClick={toggle}>
-                      <MenuClose />
-                    </button>
-                  ) : (
+                  {isOpen ? null : (
                     <button onClick={toggle}>
                       <Menu />
                     </button>
@@ -87,33 +86,37 @@ export default function Navbar() {
                   <a href="#" className="hover:text-[#fff]">
                     PRODUCT
                   </a>
-                  <div className="hidden product">hover me</div>
+                  <div className="hidden product relative">hover me</div>
                 </div>
                 <div className="mx-4 companyMain">
                   <a href="#" className="hover:text-[#fff]">
                     COMPANY
                   </a>
-                  <div className="hidden company">hover me</div>
+                  <div className="hidden company relative">
+                    <HoverCard data={companyData} />
+                  </div>
                 </div>
                 <div className="mx-4 communityMain">
                   <a href="#" className="hover:text-[#fff]">
                     COMMUNITY
                   </a>
-                  <div className="hidden community">hover me</div>
+                  <div className="hidden community relative">
+                    <ComminityCard />
+                  </div>
                 </div>
                 <div className="mx-4 resourceMain">
                   <a href="#" className="hover:text-[#fff]">
                     RESOURCES
                   </a>
-                  <div className="hidden resource">
-                    <HoverCard />
+                  <div className="hidden resource relative">
+                    <HoverCard data={data} />
                   </div>
                 </div>
                 <div className="mx-4 pricingMain">
                   <a href="#" className="hover:text-[#fff]">
                     RRICING
                   </a>
-                  <div className="hidden pricing">hover me</div>
+                  <div className="hidden pricing relative">hover me</div>
                 </div>
                 <button className="btn-2 relative prefect-button mx-4">
                   GET STARTED
@@ -133,7 +136,9 @@ export default function Navbar() {
                     height: "100vh",
                     width: "100vw",
                     position: "relative",
-                    top: "-68px",
+                    top: "-55px",
+                    overflow: "auto",
+                    marginLeft: "18px",
                   }}
                 >
                   <MobileMenu toggle={toggle} isOpen={isOpen} />

@@ -4,7 +4,7 @@ import { CopyBlock, dracula } from "react-code-blocks";
 
 import Copy from "@/public/assets/Copy";
 import { useState } from "react";
-import perfect from "../../public/images/prefect-2.0-logo-light.png";
+import perfect from "../../../public/images/prefect-2.0-logo-light.png";
 
 export default function FocusCode() {
   const text = `from prefect import flow, task
@@ -122,9 +122,13 @@ def marvin_flow():
               ) : (
                 <div>
                   {copyText === "COPIED" ? (
-                    <span className="text-[12px] tracking-widest cursor-copy">COPIED</span>
+                    <span className="text-[12px] tracking-widest cursor-copy">
+                      COPIED
+                    </span>
                   ) : (
-                    <span className="text-[12px] tracking-widest cursor-copy">COPY</span>
+                    <span className="text-[12px] tracking-widest cursor-copy">
+                      COPY
+                    </span>
                   )}
                 </div>
               )}

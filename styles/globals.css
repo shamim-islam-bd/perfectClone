@@ -63,9 +63,6 @@ button:hover svg {
 }
 
 @layer base {
-  p {
-    /* text-transform: lowercase; */
-  }
 
   h1 {
     font-family: "Barlow", sans-serif;
@@ -114,23 +111,19 @@ svg#constellationMotif {
 }
 
 .productMain:hover .product {
-  position: absolute;
   display: block;
   transition: ease-in-out 0.5s;
 }
 .companyMain:hover .company {
-  position: absolute;
   display: block;
   transition: ease-in-out 0.5s;
 }
 .communityMain:hover .community {
-  position: absolute;
   display: block;
   transition: ease-in-out 0.5s;
 }
 .resourceMain:hover .resource {
-  /* position: absolute; */
-  /* display: block; */
+  display: block;
   transition: ease-in-out 0.5s;
 }
 
@@ -138,10 +131,14 @@ svg#constellationMotif {
   display: inline-block;
 }
 
-/* scoll bar none */
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+
+.comminityicons svg{
+  width: 60px;
+  height: 60px;
+}
+.comminityicons svg path{
+  fill: #0052FF;
+}
 
 .gradient-1 {
   z-index: -2;
@@ -304,6 +301,15 @@ ul.slick-dots {
   top: -35px;
   right: 36%;
 }
+
+.contentSlider .slick-dots {
+  position: absolute;
+  z-index: 20;
+}
+.slick-list {
+  z-index: 30;
+}
+
 
 /* client slider */
 

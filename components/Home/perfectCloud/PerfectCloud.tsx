@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Bgshortline from "@/public/assets/Bgshortline";
-import HeroDark1 from "../../public/images/HeroDark1.1__2_.png";
-import PrefectCloud from "../../public/images/Prefect-Cloud_Logo.png";
+import Image from "next/image";
+import HeroDark1 from "../../../public/images/HeroDark1.1__2_.png";
+import PrefectCloud from "../../../public/images/Prefect-Cloud_Logo.png";
 
 export default function PerfectCloud() {
   return (

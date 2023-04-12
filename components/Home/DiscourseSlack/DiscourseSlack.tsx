@@ -31,12 +31,8 @@ export default function DiscourseSlack() {
             <div className="block lg:hidden opacity-50">{item.img}</div>
           </div>
           <div className="px-4">
-            <span className="lg:text-2xl font-barlow">
-              {item.title}
-            </span>
-            <p className="hidden md:block lg:block text-barlow">
-              {item.des}
-            </p>
+            <span className="lg:text-2xl font-barlow">{item.title}</span>
+            <p className="hidden md:block lg:block text-barlow">{item.des}</p>
           </div>
         </div>
       ))}

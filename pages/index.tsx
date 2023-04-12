@@ -1,10 +1,11 @@
-import DiscourseSlack from "@/components/DiscourseSlack/DiscourseSlack";
 import Footer from "@/components/Footer/Footer";
-import SliderMain from "@/components/MonsonrySliders/SliderMain";
-import Banner from "@/components/banner/Banner";
-import CardSlider from "@/components/cardSlider/CardSlider";
-import PerfectCloud from "@/components/perfectCloud/PerfectCloud";
-import WhyPrefect from "@/components/whyPrefect/WhyPrefect";
+import DiscourseSlack from "@/components/Home/DiscourseSlack/DiscourseSlack";
+import SliderMain from "@/components/Home/MonsonrySliders/SliderMain";
+import Banner from "@/components/Home/banner/Banner";
+import CardSlider from "@/components/Home/cardSlider/CardSlider";
+import PerfectCloud from "@/components/Home/perfectCloud/PerfectCloud";
+
+import WhyPrefect from "@/components/Home/whyPrefect/WhyPrefect";
 import Head from "next/head";
 
 export default function Home() {
