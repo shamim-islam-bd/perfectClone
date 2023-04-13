@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { CopyBlock, dracula } from "react-code-blocks";
-// import copy from "../../public/assets/svgexport-28.svg";
-
 import Copy from "@/public/assets/Copy";
 import { useState } from "react";
 import perfect from "../../../public/images/prefect-2.0-logo-light.png";

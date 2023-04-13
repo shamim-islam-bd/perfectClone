@@ -39,7 +39,6 @@ export default function PerfectCloud() {
             style={{
               opacity: 0.7,
               letterSpacing: "1.5px",
-              //   textAlign: "start",
             }}
           >
             DATAFLOW AUTOMATION PLATFORM

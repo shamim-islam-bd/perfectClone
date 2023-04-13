@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./about.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap");
 
 @font-face {
-  font-family: "inputsans", "Courier New";
+  font-family: "input-sans", "Courier New";
   src: url("../public/fonts/InputSans-Regular.otf");
 }
 
@@ -63,7 +64,6 @@ button:hover svg {
 }
 
 @layer base {
-
   h1 {
     font-family: "Barlow", sans-serif;
     /* font-family: Barlow; */
@@ -111,7 +111,7 @@ svg#constellationMotif {
 }
 
 .productMain:hover .product {
-  display: block;
+  /* display: block; */
   transition: ease-in-out 0.5s;
 }
 .companyMain:hover .company {
@@ -131,13 +131,12 @@ svg#constellationMotif {
   display: inline-block;
 }
 
-
-.comminityicons svg{
+.comminityicons svg {
   width: 60px;
   height: 60px;
 }
-.comminityicons svg path{
-  fill: #0052FF;
+.comminityicons svg path {
+  fill: #0052ff;
 }
 
 .gradient-1 {
@@ -309,7 +308,6 @@ ul.slick-dots {
 .slick-list {
   z-index: 30;
 }
-
 
 /* client slider */
 
@@ -658,3 +656,4 @@ ul.slick-dots {
   width: 20px;
   height: 20px;
 }
+

@@ -1,0 +1,72 @@
+.company .color {
+  color: black;
+}
+
+.mapped {
+  width: 400px;
+  height: 300px;
+}
+.mapped svg {
+  width: 100%;
+  height: 100%;
+}
+
+.tall-wraper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.prefect-funding.a:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-radius: 4px;
+  top: 0;
+  left: 5px;
+  width: 6px;
+  height: 30%;
+  background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.2) 95.45%);
+}
+.prefect-funding.b:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-radius: 4px;
+  top: 40;
+  left: 5px;
+  width: 6px;
+  height: 30%;
+  background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.2) 95.45%);
+}
+.prefect-funding.c:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-radius: 4px;
+  top: 60;
+  left: 5px;
+  width: 6px;
+  height: 30%;
+  background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.2) 95.45%);
+}
+
+
+.about-us-stats {
+  margin-top: 0;
+  flex: unset;
+  margin-bottom: 0;
+  margin-left: 0;
+  -webkit-clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+  clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+  padding-left: 66px;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+
+.prefect-blog-post {
+  width: 400px;
+  -webkit-clip-path: polygon(0 38%,100% 0,100% 100%,0 100%);
+  clip-path: polygon(0 38%,100% 0,100% 100%,0 100%);
+}

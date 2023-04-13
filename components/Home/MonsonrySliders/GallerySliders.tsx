@@ -4,7 +4,6 @@ import VerticalSlider from "./VerticalSlider";
 export default function GallerySliders() {
   return (
     <div className="py-10 p-6 grid grid-cols-3 gap-1 opacity-50">
-      {/* <div className="flex"> */}
       <HorizontalSlider />
       <VerticalSlider />
       <HorizontalSlider />
@@ -14,7 +13,6 @@ export default function GallerySliders() {
       <VerticalSlider />
       <HorizontalSlider />
       <VerticalSlider />
-      {/* </div> */}
     </div>
   );
 }
