@@ -18,7 +18,7 @@ const customStyles = {
 
 export default function WhyPrefect() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [videoId, setVideoId] = useState(null);
+  const [videoId, setVideoId] = useState<any | null>(null);
 
   const handleButtonClick = () => {
     setModalIsOpen(true);
