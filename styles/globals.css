@@ -626,6 +626,11 @@ ul.slick-dots {
   left: 0px;
 }
 
+.topnav {
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
 .topnav .slick-prev {
   color: #07e798 !important;
   z-index: 20;
@@ -656,4 +661,3 @@ ul.slick-dots {
   width: 20px;
   height: 20px;
 }
-

@@ -101,8 +101,20 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplaySpeed: 5000,
-  prevArrow: <SamplePrevArrow />,
-  nextArrow: <SampleNextArrow />,
+  prevArrow: (
+    <SamplePrevArrow
+      className={undefined}
+      style={undefined}
+      onClick={undefined}
+    />
+  ),
+  nextArrow: (
+    <SampleNextArrow
+      className={undefined}
+      style={undefined}
+      onClick={undefined}
+    />
+  ),
 };
 
 const responsive = [
