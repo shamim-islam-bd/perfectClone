@@ -99,8 +99,20 @@ const settings = {
   slidesToShow: 1,
   dots: true,
   speed: 500,
-  nextArrow: <SampleNextArrow />,
-  prevArrow: <SamplePrevArrow />,
+  nextArrow: (
+    <SampleNextArrow
+      className={undefined}
+      style={undefined}
+      onClick={undefined}
+    />
+  ),
+  prevArrow: (
+    <SamplePrevArrow
+      className={undefined}
+      style={undefined}
+      onClick={undefined}
+    />
+  ),
 };
 
 export default function TopNav() {
