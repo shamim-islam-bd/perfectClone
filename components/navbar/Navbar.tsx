@@ -149,4 +149,3 @@ export default function Navbar() {
     </div>
   );
 }
-// lg:block hidden
